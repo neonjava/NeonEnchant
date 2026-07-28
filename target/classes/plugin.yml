@@ -1,0 +1,13 @@
+name: NeonEnchant
+version: 1.0.0
+main: dev.neonjava.neonenchant.NeonEnchant
+api-version: '1.21'
+author: neonjava
+description: Interactive Enchantment GUI Plugin
+folia-supported: true
+
+commands:
+  customenchant:
+    description: Open the interactive enchantment GUI for your held item.
+    aliases: [enchantgui, customenchanting]
+    permission: neonenchant.use
